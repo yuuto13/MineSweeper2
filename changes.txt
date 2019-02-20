@@ -1,0 +1,40 @@
+    this->settings->value("PLAYERSETTING/mineCol", MIN_COL).toInt(),
+                         this->settings->value("PLAYERSETTING/mineRow", MIN_ROW).toInt(),
+                         this->settings->value("PLAYERSETTING/mineNum", MIN_MINE_NUM).toInt()
+
+
+void MainWindow::setCol(QString str_col)
+{
+    int col = str_col.toInt();
+    if(col < MIN_COL){
+        col = MIN_COL;
+    }else if(col > MAX_COL){
+        col = MAX_COL;
+    }
+    this->settings->setValue("PLAYERSETTING/mineCol", col);
+}
+
+void MainWindow::setRow(QString str_row)
+{
+    int row = str_row.toInt();
+    if(row < MIN_ROW){
+        row = MIN_ROW;
+    }else if(row > MAX_ROW){
+        row = MAX_ROW;
+    }
+    this->settings->setValue("PLAYERSETTING/mineRow", row);
+}
+
+void MainWindow::setNum(QString str_num)
+{
+    int num = str_num.toInt();
+    if(num < MIN_MINE_NUM){
+        num = MIN_MINE_NUM;
+    }else if(num > MAX_MINE_NUM(this->settings->value("PLAYERSETTING/mineCol", MIN_COL).toInt(),
+                                this->settings->value("PLAYERSETTING/mineRow", MIN_ROW).toInt())){
+        num = MAX_MINE_NUM(this->settings->value("PLAYERSETTING/mineCol", MIN_COL).toInt(),
+                           this->settings->value("PLAYERSETTING/mineRow", MIN_ROW).toInt());
+    }
+    this->settings->setValue("PLAYERSETTING/mineNum", num);
+}
+

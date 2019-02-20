@@ -1,0 +1,50 @@
+<RCC>
+    <qresource prefix="/face">
+        <file>resourses/cool.png</file>
+        <file>resourses/dead.png</file>
+        <file>resourses/smile.png</file>
+        <file>resourses/oh.png</file>
+        <file>resourses/smile_pressed.png</file>
+    </qresource>
+    <qresource prefix="/number">
+        <file>resourses/0.png</file>
+        <file>resourses/1.png</file>
+        <file>resourses/2.png</file>
+        <file>resourses/3.png</file>
+        <file>resourses/4.png</file>
+        <file>resourses/5.png</file>
+        <file>resourses/6.png</file>
+        <file>resourses/7.png</file>
+        <file>resourses/8.png</file>
+        <file>resourses/9.png</file>
+        <file>resourses/-.png</file>
+    </qresource>
+    <qresource prefix="/grid">
+        <file>resourses/empty.png</file>
+        <file>resourses/field.png</file>
+        <file>resourses/mark.png</file>
+        <file>resourses/mine.png</file>
+        <file>resourses/mine_1.png</file>
+        <file>resourses/mine_2.png</file>
+        <file>resourses/mine_3.png</file>
+        <file>resourses/mine_4.png</file>
+        <file>resourses/mine_5.png</file>
+        <file>resourses/mine_6.png</file>
+        <file>resourses/mine_fause.png</file>
+        <file>resourses/mine_true.png</file>
+        <file>resourses/qmark.png</file>
+        <file>resourses/null.png</file>
+        <file>resourses/mine_7.png</file>
+        <file>resourses/mine_8.png</file>
+        <file>resourses/qmark_pressed.png</file>
+        <file>resourses/mine_0.png</file>
+    </qresource>
+    <qresource prefix="/window">
+        <file>resourses/number_display.png</file>
+        <file>resourses/back_ground.png</file>
+        <file>resourses/field_bottom_corner.png</file>
+        <file>resourses/field_top_corner.png</file>
+        <file>resourses/status_bar_bottom_corner.png</file>
+        <file>resourses/status_bar_top_corner.png</file>
+    </qresource>
+</RCC>
